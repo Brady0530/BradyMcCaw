@@ -30,7 +30,7 @@ def education_section(education_data,course_data):
     st.write(f"**Graduation Date:{education_data['Graduation Date']}**")
     st.write("---")
     
-education_section(BMinfo.education_data, BMinfo.course_data)
+education_section(BMinfo.education_data)
 
 def experience_section(experience_data):
     st.header("Professional Experience")
