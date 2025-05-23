@@ -25,18 +25,9 @@ links_section()
 def education_section(education_data,course_data):
     st.header("Education")
     st.subheader(f"{education_data['Institution']}")
+    st.write(f"**Location:{education_data['Location']}**")
     st.write(f"**Degree:{education_data['Degree']}**")
     st.write(f"**Graduation Date:{education_data['Graduation Date']}**")
-    st.write(f"**GPA:{education_data['GPA']}**")
-    st.write("**Relevant Coursework:**")
-    coursework = pd.DataFrame(course_data)
-    st.dataframe(coursework, column_config={
-        "code":"Course Code",
-        "names": "Course Names",
-        "semester_taken": "Semester Taken",
-        "skills": "What I Learned"},
-        hide_index=True,
-        )
     st.write("---")
     
 education_section(BMinfo.education_data, BMinfo.course_data)
