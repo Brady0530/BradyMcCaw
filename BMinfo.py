@@ -42,9 +42,9 @@ projects = {
                             "- Python interpretation of an API yielding results based on user input, LLM incorporated in code", 
                             "- Website construction using HTML",
                             "- Chatbot implemented to create an interactive interface"], 
-    "Analysis of Correlation Between Railroad Incidents and Proximity to Schools" : ["- Multimodal presentation on the existence of a relationship between incidents at railroads crossings and theincident’s proximity to the nearest public school", 
+    "Analysis of Correlation Between Railroad Incidents and Proximity to Schools" : (["- Multimodal presentation on the existence of a relationship between incidents at railroads crossings and theincident’s proximity to the nearest public school", 
                     "- Data collection from CSV using data-parser, web-scraping using an API and HTML",
-                    "- Insights and visualizations produced via imported Python matplot and folium libraries"]
+                    "- Insights and visualizations produced via imported Python matplot and folium libraries"], "BMImages/OnePager.png")
 
 }
 
