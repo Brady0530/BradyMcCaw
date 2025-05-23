@@ -24,7 +24,7 @@ education_data ={
     'Graduation Date': ' 2027'
 }
 
-experience_data = {
+experiences = {
     "Terrell Engineering Fieldwork Intern": (["- Worked on a barge for all of summer",
                                                                     "- Got lots of oil and grease on my clothes", "- Lost my hearing to a fog horn"],"BMImages/bargepic.png"),
     "Cook at Brooklyn Pizzeria":(["- Made the meanest pie you've ever seen",
