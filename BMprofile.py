@@ -22,7 +22,7 @@ def links_section():
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 links_section()
 
-def education_section(education_data,course_data):
+def education_section(education_data):
     st.header("Education")
     st.subheader(f"{education_data['Institution']}")
     st.write(f"**Location:{education_data['Location']}**")
