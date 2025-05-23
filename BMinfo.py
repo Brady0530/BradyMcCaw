@@ -29,7 +29,7 @@ experiences = {
                                                                     "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/bargepic.png", "BMImages/TElogo.jpg"]),
     "Brooklyn Pizzeria Customer Service and Back Kitchen Employee": (["- Responsible for management and maintenance of all ingredients and utensils used for food preparation and production",
                                                            "- Carried out financial transactions and served as a customer service responde",
-                                                           "- Helped create and maintain team shift schedules"], ["BMImages/pizzaguy.png", "BMIMages/brooklylogo.jpg"]),
+                                                           "- Helped create and maintain team shift schedules"], ["BMImages/pizzaguy.png", "BMImages/brooklylogo.jpg"]),
     "Saint Stanislaus College Admissions Intern":(["- Organized events for Student Ambassadors and prospective students’ families",
                                                               "- Created and maintained extensive alumni database",
                                                               "- Led recruitment efforts at local elementary/middle schools",
