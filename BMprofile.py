@@ -36,19 +36,11 @@ def experience_section(experiences):
     for title, (details, images) in experiences.items():
         with st.expander(title):
             cols = st.columns(len(images))
-            for col, image_path in zip(cols, images):
+            for col, image in zip(cols, images):
                 try:
-                    if os.path.exists(image_path):
-                        img = Image.open(image_path)
-                        base_height = 200
-                        h_percent = base_height / float(img.size[1])
-                        new_width = int(float(img.size[0]) * h_percent)
-                        resized_img = img.resize((new_width, base_height), Image.LANCZOS)
-                        col.image(resized_img)
-                    else:
-                        col.warning(f"Image not found: {image_path}")
+                    col.image(image, width=200)
                 except Exception as e:
-                    col.warning(f"Error loading image: {image_path}")
+                    col.warning(f"Image not found: {image}")
             for bullet in details:
                 st.write(bullet)
     st.write("---")
