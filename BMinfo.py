@@ -45,7 +45,7 @@ projects = {
     "Analysis of Correlation Between Railroad Incidents and Proximity to Schools" : (["- Multimodal presentation on the existence of a relationship between incidents at railroads crossings and theincident’s proximity to the nearest public school", 
                     "- Data collection from CSV using data-parser, web-scraping using an API and HTML",
                     "- Insights and visualizations produced via imported Python matplot and folium libraries"
-                    "- Video link : https://youtu.be/5k6ezvCUGNM"], "BMImages/OnePager.png")
+                    "- Video link : https://youtu.be/5k6ezvCUGNM"], "BMImages/onepagerreal.png")
 
 }
 
