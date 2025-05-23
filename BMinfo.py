@@ -71,10 +71,13 @@ spoken_data = {
     "French": "Conversational",
 }
 leadership_data = {
-    "Chair of GT Student Alumni Association First Year Program": (["- In charge of a bunch of freshmen"],"BMImages/gtsaa.png"),
-
+    "SAA Chair of First Year Program": (["- Organize and facilitate weekly meetings for a selective cohort of GT first year students in effort to assist in their becoming more immersed in the Student Alumni Association"],"BMImages/gtsaa.png"),
+    "SAA Director of Social Media": (["- Lead the creation, development, and production and graphics and media meant to showcase and advertise the Georgia Tech Student Alumni Association"], "BMImages/gtsaa.png"),
+    "IFC Director of Recruitment": (["- Prepare for and orchestrate the recruitment process for all Georgia Tech students interested in participating in fraternity formal rush"], "BMImages/IFC.png")
 }
 activity_data={
-    "Spongebob fan club": ["- Spongebob role play every Thursday night", 
-            "- I'm Spongebob already you can't be Spongebob"]
+    "Georgia Tech Delta Chi: Director of Events": ["- Plan and facilitate smooth and successful social events for brothers and invitees"],
+    "Georgia Tech Delta Chi: Historian/Awards": ["- Design and produce the annual chapter composite", 
+                                                 "- Create and present chapter awards at formal and semi=formal events"]
+                                        
 }
