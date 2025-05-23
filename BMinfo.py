@@ -76,7 +76,7 @@ leadership_data = {
     "IFC Director of Recruitment": (["- Prepare for and orchestrate the recruitment process for all Georgia Tech students interested in participating in fraternity formal rush"], "BMImages/GTifc.png")
 }
 activity_data={
-    "Georgia Tech Delta Chi: Director of Events": ["- Plan and facilitate smooth and successful social events for brothers and invitees"],
+    "Georgia Tech Delta Chi: Director of Events": ["- Plan and facilitate smooth and successful social events for brothers and guests"],
     "Georgia Tech Delta Chi: Historian/Awards": ["- Design and produce the annual chapter composite", 
                                                  "- Create and present chapter awards at formal and semi=formal events"]
                                         
