@@ -36,7 +36,7 @@ def experience_section(experiences):
     for title, (details, images) in experiences.items():
         with st.expander(title):
             for image in images:
-                st.image(iamge, width=250)
+                st.image(image, width=250)
             for bullet in details:
                 st.write(bullet)
     st.write("---")
