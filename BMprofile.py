@@ -48,14 +48,14 @@ def experience_section(experiences):
     st.write("---")
 experience_section(BMinfo.experiences)
 
-def project_section(projects_data):
+def project_section(projects):
     st.header("Projects")
-    for project_name, project_description in projects_data.items():
-        expander = st.expander(f"{project_name}")
+    for project_name, project_description in projects.items():
+        with st.expander(project_name):
         for bullet in project_description:
-            expander.write(bullet)
+            st.write(bullet)
     st.write("---")
-project_section(BMinfo.projects_data)
+project_section(BMinfo.projects)
 
 def skills_section(programming_data, spoken_data):
     st.header("Skills")
