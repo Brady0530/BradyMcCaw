@@ -18,14 +18,14 @@ my_email_address = "bgmccaw30@gmail.com"
 
 
 education_data ={
-    'Degree': 'Bachelor of Science in Industrial Engineering',
-    'Institution': 'Georgia Institute of Technology',
-    'Location': 'Atlanta, GA',
-    'Graduation Date': '2027'
+    'Degree': ' Bachelor of Science in Industrial Engineering',
+    'Institution': ' Georgia Institute of Technology',
+    'Location': ' Atlanta, GA',
+    'Graduation Date': ' 2027'
 }
 
 experience_data = {
-    "Terrell Engineering Intern": (["- Worked on a barge for all of summer",
+    "Terrell Engineering Fieldwork Intern": (["- Worked on a barge for all of summer",
                                                                     "- Got lots of oil and grease on my clothes", "- Lost my hearing to a fog horn"],"BMImages/bargepic.png"),
     "Cook at Brooklyn Pizzeria":(["- Made the meanest pie you've ever seen",
                                                            "- You don't want to know how we made the sauce"],"BMImages/pizzaguy.png"),
