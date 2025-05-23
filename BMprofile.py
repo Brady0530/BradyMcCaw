@@ -38,7 +38,7 @@ def experience_section(experiences):
             cols = st.columns(len(images))
             for col, image in zip(cols, images):
                 try:
-                    col.image(image, height=200)
+                    col.image(image, width=200)
                 except Exception as e:
                     col.warning(f"Image not found: {image}")
             for bullet in details:
