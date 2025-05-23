@@ -31,15 +31,15 @@ def education_section(education_data):
     st.write("---")
 education_section(BMinfo.education_data)
 
-def experience_section(experience_data):
+def experience_section(experiences):
     st.header("Professional Experience")
-    for job_title,(job_description,image) in experience_data.items():
+    for job_title,(job_description,image) in experiences.items():
         expander = st.expander(f"{job_title}")
         expander.image(image,width=250)
         for bullet in job_description:
             expander.write(bullet)
     st.write("---")
-experience_section(BMinfo.experience_data)
+experience_section(BMinfo.experiences)
 
 def project_section(projects_data):
     st.header("Projects")
