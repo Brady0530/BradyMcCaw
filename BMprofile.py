@@ -77,9 +77,9 @@ def activities_section(leadership_data, activity_data):
         st.subheader("Leadership")
         for title, (details, image) in leadership_data.items():
             expander = st.expander(f"{title}")
-            expander.image(image, width=250)
             for bullet in details:
                 expander.write(bullet)
+            expander.image(image, width=250)
     with tab2:  
         st.subheader("Extracurriculars")
         for title, details in activity_data.items():
