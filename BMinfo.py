@@ -73,7 +73,7 @@ spoken_data = {
 leadership_data = {
     "SAA Chair of First Year Program": (["- Organize and facilitate weekly meetings for a selective cohort of GT first year students in effort to assist in their becoming more immersed in the Student Alumni Association"],"BMImages/gtsaa.png"),
     "SAA Director of Social Media": (["- Lead the creation, development, and production and graphics and media meant to showcase and advertise the Georgia Tech Student Alumni Association"], "BMImages/gtsaa.png"),
-    "IFC Director of Recruitment": (["- Prepare for and orchestrate the recruitment process for all Georgia Tech students interested in participating in fraternity formal rush"], "BMImages/IFC.png")
+    "IFC Director of Recruitment": (["- Prepare for and orchestrate the recruitment process for all Georgia Tech students interested in participating in fraternity formal rush"], "BMImages/GTifc.png")
 }
 activity_data={
     "Georgia Tech Delta Chi: Director of Events": ["- Plan and facilitate smooth and successful social events for brothers and invitees"],
