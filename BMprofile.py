@@ -33,9 +33,10 @@ education_section(BMinfo.education_data)
 
 def experience_section(experiences):
     st.header("Professional Experience")
-    for title, (details, image_path) in experiences.items():
+    for title, (details, images) in experiences.items():
         with st.expander(title):
-            st.image(image_path, width=250)
+            for image in images:
+                st.image(iamge, width=250)
             for bullet in details:
                 st.write(bullet)
     st.write("---")
