@@ -26,7 +26,7 @@ education_data ={
 
 experiences = {
     "Terrell Engineering Fieldwork Intern": (["- Responsible for taking accurate measurements to be used for create floor-plan of barges",
-                                            "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/TElogo.png", "BMImages/bradybargepic.png", "BMImages/bargepic.png"]),
+                                            "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/TElogo.jpg", "BMImages/bradybargepic.png", "BMImages/bargepic.png"]),
     "Brooklyn Pizzeria Customer Service and Back Kitchen Employee": (["- Responsible for management and maintenance of all ingredients and utensils used for food preparation and production",
                                                            "- Carried out financial transactions and served as a customer service responde",
                                                            "- Helped create and ma{intain team shift schedules"], ["BMImages/brooklylogo.jpg", "BMImages/brooklynme.jpg"]),
