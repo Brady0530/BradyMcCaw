@@ -3,7 +3,7 @@
 
 #CHANGE BELOW
 profile_picture = "BMImages/ramblinwreck.png"
-about_me = "My name is Brady McCaw. I am currently a 3rd year at Georgia Tech studying Industrial Engineering! Originally from the coastal town of Bay St. Louis, Mississippi, I don't know what the hell I am going to do after I graduate. I currently work for an MLM out of Sandy Springs but hopefully I make a lot of money so who really cares wether or not it's a scammed. Reid Evans is mad about me but he shoved me so he's never going to get his $20 back. Lately I've been on a house music and iced coffee kick - I've spent more time in Cat Island Coffeehouse than my own home but that's ok because I've been productive. "
+about_me = "My name is Brady McCaw. I am currently a 3rd year at Georgia Tech studying Industrial Engineering! Originally from the coastal town of Bay St. Louis, Mississippi, I don't know what the hell I am going to do after I graduate. I currently work for an MLM out of Sandy Springs but hopefully I make a lot of money so who really cares whether or not it's a scammed. Reid Evans is mad about me but he shoved me so he's never going to get his $20 back. Lately I've been on a house music and iced coffee kick - I've spent more time in Cat Island Coffeehouse than my own home but that's ok because I've been productive. "
 
 
 #CHANGE BELOW (OPTIONAL)
