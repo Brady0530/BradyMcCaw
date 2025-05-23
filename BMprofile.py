@@ -35,8 +35,12 @@ def experience_section(experiences):
     st.header("Professional Experience")
     for title, (details, images) in experiences.items():
         with st.expander(title):
-            for image in images:
-                st.image(image, width=250)
+            cols = st.columns(len(images))  # create columns based on number of images
+            for col, image in zip(cols, images):
+                try:
+                    col.image(image, width=250)
+                except Exception as e:
+                    col.warning(f"Image not found: {image}")
             for bullet in details:
                 st.write(bullet)
     st.write("---")
