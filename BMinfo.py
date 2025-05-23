@@ -38,7 +38,14 @@ experiences = {
 }
 
 projects_data = {
-    "Online weather app made from scratch": "Used tips and tricks learned from CS 1301 to make an online weather webpage, one that uses just user input and one that incoprorates Gemini ai.",
+    "Online Weather Interpreter": ["- Website developed to produce responses detailing the best clothing option for a user to wear dependent on weather conditions over a selected timespan",
+                            "- Python interpretation of an API yielding results based on user input, LLM incorporated in code", 
+                            "- Website construction using HTML",
+                            "- Chatbot implemented to create an interactive interface"], 
+    "Analysis of Correlation Between Railroad Incidents and Proximity to Schools" : ["- Multimodal presentation on the existence of a relationship between incidents at railroads crossings and theincident’s proximity to the nearest public school", 
+                    "- Data collection from CSV using data-parser, web-scraping using an API and HTML",
+                    "- Insights and visualizations produced via imported Python matplot and folium libraries"]
+
 }
 
 programming_data = {
