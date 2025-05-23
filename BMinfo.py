@@ -38,10 +38,10 @@ experiences = {
 }
 
 projects = {
-    "Online Weather Interpreter": ["- Website developed to produce responses detailing the best clothing option for a user to wear dependent on weather conditions over a selected timespan",
+    "Online Weather Interpreter": (["- Website developed to produce responses detailing the best clothing option for a user to wear dependent on weather conditions over a selected timespan",
                             "- Python interpretation of an API yielding results based on user input, LLM incorporated in code", 
                             "- Website construction using HTML",
-                            "- Chatbot implemented to create an interactive interface"], 
+                            "- Chatbot implemented to create an interactive interface"], "BMImages/weatherinterpreterpicture.png"), 
     "Analysis of Correlation Between Railroad Incidents and Proximity to Schools" : (["- Multimodal presentation on the existence of a relationship between incidents at railroads crossings and theincident’s proximity to the nearest public school", 
                     "- Data collection from CSV using data-parser, web-scraping using an API and HTML",
                     "- Insights and visualizations produced via imported Python matplot and folium libraries"
