@@ -35,23 +35,14 @@ education_section(BMinfo.education_data)
 
 def experience_section(experiences):
     st.header("Professional Experience")
-    for title, (details, image_dicts) in experiences.items():
+    for title, (details, images) in experiences.items():
         with st.expander(title):
-            cols = st.columns(len(image_dicts))
-            for col, img_data in zip(cols, image_dicts):
+            cols = st.columns(len(images))
+            for col, image in zip(cols, images):
                 try:
-                    image_path = img_data["path"]
-                    height = img_data.get("height", 200)
-                    if os.path.exists(image_path):
-                        img = Image.open(image_path)
-                        h_percent = height / float(img.size[1])
-                        new_width = int(float(img.size[0]) * h_percent)
-                        resized_img = img.resize((new_width, height), Image.LANCZOS)
-                        col.image(resized_img)
-                    else:
-                        col.warning(f"Image not found: {image_path}")
+                    col.image(image, width=200)
                 except Exception as e:
-                    col.warning(f"Error loading image: {img_data}")
+                    col.warning(f"Image not found: {image}")
             for bullet in details:
                 st.write(bullet)
     st.write("---")
