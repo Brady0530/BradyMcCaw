@@ -26,14 +26,14 @@ education_data ={
 
 experiences = {
     "Terrell Engineering Fieldwork Intern": (["- Responsible for taking accurate measurements to be used for create floor-plan of barges",
-                                                                    "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/bargepic.png", "BMImages/TElogo.jpg"]),
+                                                                    "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/TElogo.jpg", "BMImages/bradybargepic.png", "BMImages/bargepic.png"]),
     "Brooklyn Pizzeria Customer Service and Back Kitchen Employee": (["- Responsible for management and maintenance of all ingredients and utensils used for food preparation and production",
                                                            "- Carried out financial transactions and served as a customer service responde",
-                                                           "- Helped create and maintain team shift schedules"], ["BMImages/pizzaguy.png", "BMImages/brooklylogo.jpg"]),
+                                                           "- Helped create and maintain team shift schedules"], ["BMImages/brooklylogo.jpg", "BMImages/brooklynme.jpg"]),
     "Saint Stanislaus College Admissions Intern":(["- Organized events for Student Ambassadors and prospective students’ families",
                                                               "- Created and maintained extensive alumni database",
                                                               "- Led recruitment efforts at local elementary/middle schools",
-                                                              "- Assisted in development and production of digital media"], ["BMImages/recruitmentpic.jpg", "BMImages/ssclogo.png"])
+                                                              "- Assisted in development and production of digital media"], ["BMImages/ssclogo.png", "BMImages/sscambiespc.jpg"])
 
 }
 
