@@ -70,6 +70,13 @@ spoken_data = {
     "English": "Fluent",
     "French": "Conversational",
 }
+
+otherskills = {
+    "Adobe Suite": "Mastery",
+    "Data Entry/Analysis": "Intermediate",
+    "Rhino 3D Graphic Interface": "Intermediate",
+    "Microsoft 365": "Mastery"
+}
 leadership_data = {
     "SAA Chair of First Year Program": (["- Organize and facilitate weekly meetings for a selective cohort of GT first year students in effort to assist in their becoming more immersed in the Student Alumni Association"],"BMImages/gtsaa.png"),
     "SAA Director of Social Media": (["- Lead the creation, development, and production and graphics and media meant to showcase and advertise the Georgia Tech Student Alumni Association"], "BMImages/gtsaa.png"),
