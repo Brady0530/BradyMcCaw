@@ -29,7 +29,6 @@ def education_section(education_data,course_data):
     st.write(f"**Degree:{education_data['Degree']}**")
     st.write(f"**Graduation Date:{education_data['Graduation Date']}**")
     st.write("---")
-    
 education_section(BMinfo.education_data)
 
 def experience_section(experience_data):
