@@ -1,6 +1,8 @@
 import streamlit as st
 import BMinfo
 import pandas as pd
+from PIL import Image
+import os
 
 def about_me_section():
     st.header("About Me")
@@ -33,14 +35,23 @@ education_section(BMinfo.education_data)
 
 def experience_section(experiences):
     st.header("Professional Experience")
-    for title, (details, images) in experiences.items():
+    for title, (details, image_dicts) in experiences.items():
         with st.expander(title):
-            cols = st.columns(len(images))
-            for col, image in zip(cols, images):
+            cols = st.columns(len(image_dicts))
+            for col, img_data in zip(cols, image_dicts):
                 try:
-                    col.image(image, width=200)
+                    image_path = img_data["path"]
+                    height = img_data.get("height", 200)
+                    if os.path.exists(image_path):
+                        img = Image.open(image_path)
+                        h_percent = height / float(img.size[1])
+                        new_width = int(float(img.size[0]) * h_percent)
+                        resized_img = img.resize((new_width, height), Image.LANCZOS)
+                        col.image(resized_img)
+                    else:
+                        col.warning(f"Image not found: {image_path}")
                 except Exception as e:
-                    col.warning(f"Image not found: {image}")
+                    col.warning(f"Error loading image: {img_data}")
             for bullet in details:
                 st.write(bullet)
     st.write("---")
