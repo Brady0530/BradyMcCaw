@@ -71,7 +71,7 @@ def skills_section(programming_data, spoken_data, otherskills):
     for skill, proficiency in otherskills.items():
         st.write(f'{skill}: {proficiency}')
     st.write("---")
-skills_section(BMinfo.programming_data, BMinfo.spoken_data)
+skills_section(BMinfo.programming_data, BMinfo.spoken_data, BMinfo.otherskills)
 
 def activities_section(leadership_data, activity_data):
     st.header("Activities")
