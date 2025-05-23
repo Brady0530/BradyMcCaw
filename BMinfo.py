@@ -26,10 +26,11 @@ education_data ={
 
 experiences = {
     "Terrell Engineering Fieldwork Intern": (["- Responsible for taking accurate measurements to be used for create floor-plan of barges",
-                                                                    "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], ["BMImages/TElogo.jpg", "BMImages/bradybargepic.png", "BMImages/bargepic.png"]),
+                                            "- Utilizing measurements to hand-draft precise layout of ships meant for digital reconstruction"], 
+                                            [{"path": "BMImages/TElogo.png", "height": 200}, {"path": "BMImages/bradybargepic.png", "height": 200}, {"path": "BMImages/bargepic.png", "height": 200}]),
     "Brooklyn Pizzeria Customer Service and Back Kitchen Employee": (["- Responsible for management and maintenance of all ingredients and utensils used for food preparation and production",
                                                            "- Carried out financial transactions and served as a customer service responde",
-                                                           "- Helped create and maintain team shift schedules"], ["BMImages/brooklylogo.jpg", "BMImages/brooklynme.jpg"]),
+                                                           "- Helped create and ma{intain team shift schedules"], ["BMImages/brooklylogo.jpg", "BMImages/brooklynme.jpg"]),
     "Saint Stanislaus College Admissions Intern":(["- Organized events for Student Ambassadors and prospective students’ families",
                                                               "- Created and maintained extensive alumni database",
                                                               "- Led recruitment efforts at local elementary/middle schools",
