@@ -52,8 +52,8 @@ def project_section(projects):
     st.header("Projects")
     for project_name, project_description in projects.items():
         with st.expander(project_name):
-        for bullet in project_description:
-            st.write(bullet)
+            for bullet in project_description:
+                st.write(bullet)
     st.write("---")
 project_section(BMinfo.projects)
 
