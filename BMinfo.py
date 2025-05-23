@@ -37,7 +37,7 @@ experiences = {
 
 }
 
-projects_data = {
+projects = {
     "Online Weather Interpreter": ["- Website developed to produce responses detailing the best clothing option for a user to wear dependent on weather conditions over a selected timespan",
                             "- Python interpretation of an API yielding results based on user input, LLM incorporated in code", 
                             "- Website construction using HTML",
