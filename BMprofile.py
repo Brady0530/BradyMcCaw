@@ -50,8 +50,9 @@ experience_section(BMinfo.experiences)
 
 def project_section(projects):
     st.header("Projects")
-    for project_name, project_description in projects.items():
+    for project_name, (project_description, image) in projects.items():
         with st.expander(project_name):
+            st.image(image, width = 200)
             for bullet in project_description:
                 st.write(bullet)
     st.write("---")
