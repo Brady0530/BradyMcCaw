@@ -58,7 +58,7 @@ def project_section(projects):
     st.write("---")
 project_section(BMinfo.projects)
 
-def skills_section(programming_data, spoken_data):
+def skills_section(programming_data, spoken_data, otherskills):
     st.header("Skills")
     st.subheader("Programming Languages")
     for skill, percentage in programming_data.items():
@@ -67,6 +67,9 @@ def skills_section(programming_data, spoken_data):
     st.subheader("Spoken Languages")
     for spoken, proficiency in spoken_data.items():
         st.write(f'{spoken} {BMinfo.spoken_icons.get(spoken, "")}: {proficiency}')
+    st.subheader("Other")
+    for skill, proficiency in otherskills.items():
+        st.write(f'{skill}: {proficiency}')
     st.write("---")
 skills_section(BMinfo.programming_data, BMinfo.spoken_data)
 
