@@ -35,8 +35,8 @@ def experience_section(experiences):
     st.header("Professional Experience")
     for experience in experiences.items():
         with st.expander(experience[0]):
-            st.image(experience[1[-1]], width=250)
-            st.write(experience[1[0:-2])
+            st.image(experience[1][-1], width=250)
+            st.write(experience[1][0:-2])
     st.write("---")
 experience_section(BMinfo.experiences)
 
